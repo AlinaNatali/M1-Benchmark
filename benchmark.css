@@ -1,4 +1,16 @@
-.footer {
+
+
+  body{
+      width: auto;
+      text-align: center;
+  }
+  h1{
+      text-align: center;
+      background-color: blanchedalmond;
+      margin: 40px 30px 30px 30px;
+
+  }
+  .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -7,6 +19,24 @@
     color: white;
     text-align: center;
   }
-  body{
-      width: 100px;
+  .table{
+      border: solid 2px red;
+      width: 100%;
   }
+
+  img{
+      width: 100px;
+     padding: 10px;
+     border-radius: 3px;
+     margin:10px;
+  }
+
+  hr{
+      color:crimson;
+  }
+
+  li{
+      font-size: 20px;
+      font-style: ;
+  }
+  
