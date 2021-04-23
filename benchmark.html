@@ -99,16 +99,28 @@
 
         //ex24
         let dogs = ["Fox Tettier", "Malamute", "Labrador", "Bulldog", "Pug", "Newfoundland", "Collie", "Basset", "Pitbull", "Samoyed"]
+        //ex25
         console.log(dogs)
 
-        //ex25
-        function randomNumbers() {
-    let randomArray = []
-    for( let i = 0 ; i < 100 ; ++i) {
-        randomArray.push(Math.floor(Math.random()))
-    }
-}
-        console.log(randomArray)
+        //ex26
+        function randomNumbers(n) {
+            let randomArray = []
+            for (let i = 0; i < n; ++i) {
+                randomArray.push(Math.floor(Math.random() * 100))
+            }
+            return randomArray
+        }
+        console.log(randomNumbers(1))
+
+        //ex27
+        let z = bigArray(10);
+
+        for (let i = 0; i < z.length; i++) {
+            let bigArreyRandom = new Array(3);
+            bigArreyRandom.push(Math.floor(Math.random() * 10))
+        }
+
+        console.log(bigArrayRandom);
     </script>
 
 
